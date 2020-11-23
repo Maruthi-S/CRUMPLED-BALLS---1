@@ -4,15 +4,13 @@ const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 const Render = Matter.Render;
-var dustbinObj, paperObject,groundObject	
+var dustbinObj, paperObject,groundObject;	
 var world;
 
 
 function setup() {
 	createCanvas(800,400);
 	rectMode(CENTER);
-
-	paperObject.addImage("paper.png");
 
 	engine = Engine.create();
 	world = engine.world;
